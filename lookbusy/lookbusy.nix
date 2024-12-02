@@ -9,11 +9,10 @@ stdenv.mkDerivation {
     sha256 = "sha256-618HiG2AlymzLCmuGIrtRC203VFZg9e1wJWuVGz2hdY=";
   };
 
-  # Define any buildInputs or dependencies needed
   buildInputs = [ ];
 
   meta = with lib; {
-    description = "This is lookbusy, a tool for making systems busy.  It uses relatively simple techniques to generate CPU activity, memory and disk utilization and traffic.";
+    description = "This is lookbusy, a tool for keeping the systems busy.  It uses relatively simple techniques to generate CPU activity, memory and disk utilization and traffic.";
     license = licenses.gpl2;
   };
 }
