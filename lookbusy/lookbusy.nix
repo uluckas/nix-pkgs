@@ -2,10 +2,10 @@
 
 stdenv.mkDerivation {
   name = "lookbusy";
-  version = "1.3";
+  version = "1.4";
   src = fetchgit {
     url = "https://github.com/uluckas/lookbusy";
-    rev = "refs/heads/main";
+    rev = "refs/tags/1.4";
     sha256 = "sha256-618HiG2AlymzLCmuGIrtRC203VFZg9e1wJWuVGz2hdY=";
   };
 
